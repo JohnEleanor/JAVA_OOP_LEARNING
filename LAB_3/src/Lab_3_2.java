@@ -3,19 +3,19 @@ public class Lab_3_2 {
     String surName;
     int age;
 
-/** Creates a new instance of Lab3_2 */
-public Lab3_2() {
-name = "Somchai";
-surName = "Cheingpongpan";
-age = 24;
-}
+    /** Creates a new instance of Lab_3_2 */
+    public Lab_3_2() {
+        name = "Somchai";
+        surName = "Cheingpongpan";
+        age = 24;
+    }
 
     public static void main(String[] args) {
-        Lab3_2 person;
+        Lab_3_2 person;
         long id;
         String value;
         id = 5066260000L;
-        person = new Lab3_2();
+        person = new Lab_3_2();
         value = person.name + " " + person.surName;
         value += ", " + person.age + " year old.";
         System.out.println("ID : " + id);
