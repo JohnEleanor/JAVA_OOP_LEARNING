@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "quiz_2",
+      "request": "launch",
+      "mainClass": "quiz_2",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

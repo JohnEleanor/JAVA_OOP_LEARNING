@@ -1,9 +1,6 @@
 import javax.swing.*;
 public class quiz_1 {
     
-    
-    
-    
     public static void main(String[] args) {
         String msg;
         float C,F;
