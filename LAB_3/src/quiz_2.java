@@ -1,3 +1,7 @@
+/**
+ *! [🧠] Chotiros Suwansoot (Jay)
+ *! [💻] 6606021420148
+*/
 import javax.swing.*;
 public class quiz_2 {
     
@@ -24,6 +28,8 @@ public class quiz_2 {
          *! Loop 5 ครั้งเพื่อรับข้อมูล 5 รอบ
         */
 
+        // String messageForMyResualt;
+        
         for (int i = 1; i <= 5; i++) {
 
         float dePositButInteratenaja = principle * (interate / 100);
