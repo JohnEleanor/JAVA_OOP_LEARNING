@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Lab_4_1",
+      "request": "launch",
+      "mainClass": "Lab_4_1",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
       "name": "quiz_2",
       "request": "launch",
       "mainClass": "quiz_2",
