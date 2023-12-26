@@ -3,7 +3,7 @@ import javax.swing.*;
 public class HW2 {
 
     public static void Finddigit(Long number) {
-
+        JTextArea textArea = new JTextArea();
         String num = Long.toString(number);
 
         int oddNumber = 0, evenNumber = 0, zeroNumber = 0;
@@ -26,6 +26,11 @@ public class HW2 {
         System.out.println("This odd : "+oddNumber);
         System.out.println("This even : "+evenNumber);
         System.out.println("This zero : "+zeroNumber);
+        
+        String text = "This odd : "+oddNumber+"\nThis even : "+evenNumber+"\nThis zero : "+zeroNumber;
+
+        textArea.setText(text);
+        JOptionPane.showMessageDialog(null, textArea);
 
 
     }
