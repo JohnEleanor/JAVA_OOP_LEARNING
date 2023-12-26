@@ -1,32 +1,33 @@
 import javax.swing.*;
 
-public class Fuck {
+public class HW2 {
 
-    public static int Finddigit(Long number) {
+    public static void Finddigit(Long number) {
 
         String num = Long.toString(number);
 
         int oddNumber = 0, evenNumber = 0, zeroNumber = 0;
         for (int i = 0; i < num.length(); i++) {
-            // System.out.println(num.charAt(i));
-            int num4mat = Integer.parseInt(num);
-           if (num4mat == 0) {
+
+
+           if (num.charAt(i) == '0') {
                 zeroNumber++;
            }else {
-                if (num4mat % 2 == 0){
+
+                if ((num.charAt(i) % 2) == 0){
                     evenNumber++;
-                }else if(num4mat % 2 != 0) {
+                }else if (num.charAt(i) % 2 != 0) {
                     oddNumber++;
                 }
            }
         }
 
-        System.out.println(zeroNumber);
-        System.out.println(evenNumber);
-        System.out.println(oddNumber);
-
         
-        return(0);
+        System.out.println("This odd : "+oddNumber);
+        System.out.println("This even : "+evenNumber);
+        System.out.println("This zero : "+zeroNumber);
+
+
     }
 
     public static void inputNumber() {
@@ -35,7 +36,7 @@ public class Fuck {
        msg = JOptionPane.showInputDialog("Plase enter positive number : "); 
        Number4real = Long.parseLong(msg);
        
-        System.out.println("THIS IS INPUT : "+ Number4real );
+        System.out.println("[ THIS IS INPUT : "+ Number4real +" ]");
        Finddigit(Number4real);
 
     }
