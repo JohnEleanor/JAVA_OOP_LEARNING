@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TestSTrandom",
+      "request": "launch",
+      "mainClass": "TestSTrandom",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
       "name": "HW1",
       "request": "launch",
       "mainClass": "HW1",
