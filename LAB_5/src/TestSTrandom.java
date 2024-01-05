@@ -22,7 +22,7 @@ public class TestSTrandom {
         for (int counter = 1; counter <= 20; counter++) {
             if (counter == 1)
                 output += "========== 2 ==========\n";
-            value = 1 + (int) (rand.randomStartx100(100));
+            value = 1 + (int) (rand.randomStartx100(2));
             output += value + " ";
             if (counter % 5 == 0)
                 output += "\n";
@@ -34,7 +34,7 @@ public class TestSTrandom {
         for (int counter = 1; counter <= 20; counter++) {
             if (counter == 1)
                 output += "========== 3 ==========\n";
-            value = 1 + (int) (rand.random0(10));
+            value = 1 + (int) (rand.random0(2));
             output += value + " ";
             if (counter % 5 == 0)
                 output += "\n";
@@ -45,7 +45,7 @@ public class TestSTrandom {
         for (int counter = 1; counter <= 20; counter++) {
             if (counter == 1)
                 output += "========== 4 ==========\n";
-            value = 1 + (int) ( rand.random1(5) );
+            value = 1 + (int) ( rand.random1(3) );
             output += value + " ";
             if (counter % 5 == 0)
                 output += "\n";
