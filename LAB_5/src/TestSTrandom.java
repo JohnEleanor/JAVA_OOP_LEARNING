@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class TestSTrandom {
     public static void main(String[] args) {
-        STrandom rand = new STrandom();
+        STrandom rand = new STrandom(); 
 
         // ! Method ที่ 1
         int value;
@@ -19,6 +19,7 @@ public class TestSTrandom {
 
         }
 
+         // ! Method ที่ 2
         for (int counter = 1; counter <= 20; counter++) {
             if (counter == 1)
                 output += "========== 2 ==========\n";
@@ -31,6 +32,7 @@ public class TestSTrandom {
 
         }
 
+         // ! Method ที่ 3
         for (int counter = 1; counter <= 20; counter++) {
             if (counter == 1)
                 output += "========== 3 ==========\n";
@@ -42,6 +44,7 @@ public class TestSTrandom {
                 output += "\n";
         }
 
+         // ! Method ที่ 4
         for (int counter = 1; counter <= 20; counter++) {
             if (counter == 1)
                 output += "========== 4 ==========\n";
