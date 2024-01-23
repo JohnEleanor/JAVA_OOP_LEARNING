@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Ex_1_Vat",
+      "request": "launch",
+      "mainClass": "Ex_1_Vat",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
+      "name": "Vat",
+      "request": "launch",
+      "mainClass": "Vat",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
+      "name": "Lab6_1",
+      "request": "launch",
+      "mainClass": "Lab6_1",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
+      "name": "quiz2",
+      "request": "launch",
+      "mainClass": "quiz2",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
+      "name": "quiz1",
+      "request": "launch",
+      "mainClass": "quiz1",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
+      "name": "quiz3",
+      "request": "launch",
+      "mainClass": "quiz3",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
       "name": "Lab_3",
       "request": "launch",
       "mainClass": "Lab_3",
