@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "preMidTerm",
+      "request": "launch",
+      "mainClass": "preMidTerm",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
       "name": "Ex_1_Vat",
       "request": "launch",
       "mainClass": "Ex_1_Vat",

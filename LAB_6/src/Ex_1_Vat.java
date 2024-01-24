@@ -16,6 +16,7 @@ public class Ex_1_Vat {
         msg = JOptionPane.showInputDialog("Input number : ");
         money = Integer.parseInt(msg);
 
+     
         while (money > 0) {
 
             if (Vat_Lenght[index] == Vat_Lenght[Vat_Lenght.length - 1]) {
@@ -39,6 +40,7 @@ public class Ex_1_Vat {
             index++;
 
         }
+        
 
         msg += "\nTotal = " + number.format(total);
         area.append(msg);
