@@ -15,9 +15,6 @@ public class preMidTerm {
         String Std_Detail = "";
         msg = JOptionPane.showInputDialog("Plase enter id : ");
 
-        
-
-
         if (msg.length() == 10){
             
             String Check_Engineering = msg.substring(8, 10); // !เพื่อนำไปเช็คตัวเลข
