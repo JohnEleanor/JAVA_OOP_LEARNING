@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TestParcelTerry",
+      "request": "launch",
+      "mainClass": "TestParcelTerry",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
+      "name": "testMid",
+      "request": "launch",
+      "mainClass": "testMid",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
+      "name": "Array2D",
+      "request": "launch",
+      "mainClass": "Array2D",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
       "name": "preMidTerm",
       "request": "launch",
       "mainClass": "preMidTerm",
