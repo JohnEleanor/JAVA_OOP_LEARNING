@@ -11,6 +11,7 @@ public class Ex_1_Vat {
         int index = 0;
         double money, tax = 0, total = 0, interest = 0;
 
+        
         DecimalFormat number = new DecimalFormat("#,###,###,###");
 
         msg = JOptionPane.showInputDialog("Input number : ");

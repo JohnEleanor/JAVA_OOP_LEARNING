@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "JFrameExample",
+      "request": "launch",
+      "mainClass": "JFrameExample",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
+      "name": "JFrame",
+      "request": "launch",
+      "mainClass": "JFrame",
+      "projectName": "JAVA_OOP_LEARNING_d2e0250b"
+    },
+    {
+      "type": "java",
       "name": "TestParcelTerry",
       "request": "launch",
       "mainClass": "TestParcelTerry",
