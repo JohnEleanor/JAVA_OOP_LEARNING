@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Lab7_3",
+      "request": "launch",
+      "mainClass": "Lab7_3",
+      "projectName": "JAVA_OOP_LEARNING_b5d4de0f"
+    },
+    {
+      "type": "java",
+      "name": "WriteStar",
+      "request": "launch",
+      "mainClass": "WriteStar",
+      "projectName": "JAVA_OOP_LEARNING_b5d4de0f"
+    },
+    {
+      "type": "java",
+      "name": "Why_math_random",
+      "request": "launch",
+      "mainClass": "Why_math_random",
+      "projectName": "JAVA_OOP_LEARNING_b5d4de0f"
+    },
+    {
+      "type": "java",
+      "name": "Test5_15",
+      "request": "launch",
+      "mainClass": "Test5_15",
+      "projectName": "JAVA_OOP_LEARNING_b5d4de0f"
+    },
+    {
+      "type": "java",
       "name": "JFrameExample",
       "request": "launch",
       "mainClass": "JFrameExample",
