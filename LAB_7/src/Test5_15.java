@@ -74,6 +74,7 @@ import javax.swing.*;
     }
         
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         Test5_15 gui = new Test5_15();
     }
 }

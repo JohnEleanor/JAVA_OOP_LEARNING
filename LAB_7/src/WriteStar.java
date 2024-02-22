@@ -43,8 +43,7 @@ import javax.swing.*;
         int num1 = Integer.parseInt(NumberX.getText()) ;
         int num2 = Integer.parseInt(NumberY.getText()) ;
 
-
-        // Write Triangle from num1 and num2
+        
         for (int i = 1; i <= num1; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");

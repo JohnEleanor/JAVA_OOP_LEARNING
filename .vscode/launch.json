@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Calculator",
+      "request": "launch",
+      "mainClass": "Calculator",
+      "projectName": "JAVA_OOP_LEARNING_b5d4de0f"
+    },
+    {
+      "type": "java",
       "name": "Lab7_3",
       "request": "launch",
       "mainClass": "Lab7_3",
