@@ -111,9 +111,7 @@ public class Calculator implements ActionListener {
 
         container.add(Box.createHorizontalStrut(500));
 
-        // btnClear = new JButton(" CE ");
-        // btnClear.addActionListener(this);
-        // container.add(btnClear);
+
 
         btnDot = new JButton(" . ");
         btnDot.addActionListener(this);
@@ -247,6 +245,6 @@ public class Calculator implements ActionListener {
 
     public static void main(String[] args) {
 
-        Calculator gui = new Calculator();
+        new Calculator();
     }
 }

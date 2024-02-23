@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Lab9_1",
+      "request": "launch",
+      "mainClass": "Lab9_1",
+      "projectName": "JAVA_OOP_LEARNING_b5d4de0f"
+    },
+    {
+      "type": "java",
+      "name": "String",
+      "request": "launch",
+      "mainClass": "String",
+      "projectName": "JAVA_OOP_LEARNING_b5d4de0f"
+    },
+    {
+      "type": "java",
+      "name": "GridLayOutPlase",
+      "request": "launch",
+      "mainClass": "GridLayOutPlase",
+      "projectName": "JAVA_OOP_LEARNING_b5d4de0f"
+    },
+    {
+      "type": "java",
       "name": "Calculator",
       "request": "launch",
       "mainClass": "Calculator",

@@ -22,18 +22,23 @@ import javax.swing.*;
         NumberX = new JTextField( 10 );
         container.add( NumberX );
 
+
+        container.add(Box.createHorizontalStrut(500));
+
         number2Label = new JLabel( "Enter Y" );
         container.add( number2Label );
 
         NumberY = new JTextField( 10 );
         container.add( NumberY );
 
+        container.add(Box.createHorizontalStrut(500));
+
         btn1 = new JButton(" OK ");
         btn1.addActionListener( this );
         container.add( btn1 );
 
 
-        window.setSize( 300,150);
+        window.setSize(250, 150);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setVisible(true);
     }
@@ -41,7 +46,7 @@ import javax.swing.*;
     public void actionPerformed( ActionEvent event ){
 
         int num1 = Integer.parseInt(NumberX.getText()) ;
-        int num2 = Integer.parseInt(NumberY.getText()) ;
+        // int num2 = Integer.parseInt(NumberY.getText()) ;
 
         
         for (int i = 1; i <= num1; i++) {
@@ -64,6 +69,6 @@ import javax.swing.*;
     }
         
     public static void main(String[] args) {
-        WriteStar gui = new WriteStar();
+       new WriteStar();
     }
 }
